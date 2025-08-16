@@ -1,6 +1,5 @@
 import requests
 from parser import parse_html
-
 def fetch_store_data(store_url):
     response = requests.get(store_url)
     if response.status_code == 200:
